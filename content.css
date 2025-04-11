@@ -1,0 +1,146 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: bold;
+}
+
+nav {
+   width: 100%;
+   height: 15vh;
+   background-color: rgb(107, 103, 103);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+}
+
+nav .logo {
+   width: 25%;
+   text-align: center;
+}
+
+nav .menu {
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+}
+
+nav .menu a {
+   width: 25%;
+   text-decoration: none;
+   color: white;
+}
+
+nav .menu a:first-child {
+   color: #00b894;
+}
+
+.main {
+   font-size: 29px;
+   font-weight: 250;
+   align-items: center;
+   text-align: justify;
+   margin: 0px 40px 0px 40px;
+}
+
+.top {
+   text-align: center;
+   padding: 30px;
+   margin-bottom: 10px;
+}
+
+#best {
+   padding: 30px;
+   font-size: 50px;
+   font-weight: 350;
+}
+
+#img {
+   padding: 30px;
+   margin-left: 50px;
+   width: 92%;
+   height: 550px;
+}
+
+#hd {
+   padding: 30px;
+   font-size: 50px;
+   font-weight: 350;
+   text-align: left;
+}
+
+.footer {
+   justify-content: center;
+   text-align: center;
+   background-color: wheat;
+}
+
+h1 {
+   font-size: 25px;
+   font-weight: 450;
+}
+
+.outerbox {
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(to left, #00b894, #a8f5ff);
+   font-size: 20px;
+}
+
+
+.innerbox {
+   width: 400px;
+   margin: 0 auto;
+   position: relative;
+   top: 40%;
+   transform: translateY(-50%);
+   padding: 20px 30px;
+   background-color: white;
+   border-radius: 8px;
+}
+
+.signup {
+   margin: 20px 0;
+}
+#new{
+   font-size: 50px;
+   font-weight: 600;  
+   padding-bottom: 30px;
+}
+
+#para {
+   font-size: 20px;
+   font-weight: 300;
+   margin: 10px 0;
+}
+
+.signup p label {
+   display: block;
+}
+
+.signup p input {
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #cccc;
+   font-size: 1rem;
+}
+
+.signup p input[type="submit"] {
+   background-color: #0ed6ae;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+.signup p input[type="submit"]:hover{
+   background-color: #033027;
+}
+.signup footer{
+   text-align: center;
+}
+.signup footer a{
+ color:  #033027;
+}
+@media (max-width:745px) {}
